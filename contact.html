@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - L'Oréal Paris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+    <main>
+        <div class="container">
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="haircare.html">Haircare</a></li>
+                    <li><a href="skincare.html">Skincare</a></li>
+                    <li><a href="makeup.html">Makeup</a></li>
+                    <li><a href="contact.html">Contact</a></li> 
+                </ul>
+                <footer class="contact-info">
+                    <p><a href="mailto:sarah.meziab@elcamino.edu">Email</a></p>
+                </footer>
+            </nav>
+            <div class="main-content">
+                <header>
+                    <h1>L'oréal Paris</h1>
+                </header>
+                <section>
+                    
+                    <h3 class="intro-text">
+                    We'd love to hear from you! Fill out the form below, and we'll get back to you as soon as possible.</h3>
+                    <form action="mailto:sarah.meziab@elcamino.edu" method="post" enctype="text/plain">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone">
+
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+
